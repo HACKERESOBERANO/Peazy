@@ -49,7 +49,7 @@ const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
     XBOT: 'ᏴϴͲ ᎠO BRUXINHO', 
     instagram: 'https://www.instagram.com/kaic_de_paula?r=nametag', 
-    nomer: 'wa.me/558298050470',
+    nomer: 'wa.me/556198242169',
     youtube: 'https://youtube.com/channel/UC2a7N-vZ5xrDF-0nfcaUspw', 
     whatsapp: 'Comming soon', 
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
@@ -168,7 +168,7 @@ client.on('group-participants-update', async (anu) => {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5511973027044@s.whatsapp.net"] 
+			const ownerNumber = ["556198242169@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -272,7 +272,7 @@ case 'lofi':
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('5511973027044@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('556198242169@s.whatsapp.net', options, text, {quoted: mek})
                     reply('PDP PARSA, BUG FOI REPORTADO, SE FOR MENTIRA VAI SER COBRADO🙄✌🏼')
                     break
 					case 'marcar':
