@@ -107,7 +107,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `💠A̼̯ͦͯ͂̽ͭͪ̽̒ͮp͍̳̘͉̮͇̰ͮͩ͑ͅk͎̤͈͖̩͉̿̅̏̓̿s̹̲ͤ͐̆ ͂̏̌Ḛ̲̹̼̪̙̺̮v̰͕ŏ̰͖̮̰̗̰̜̼͔ͬl͓̖͙̓ͭ́ͪͮut̿͐̊̃ͬ̿͐̈́i͉͖͍̱̅❂̱͊ͨ̈́❂̠̳̾̋̽̀ö͕͂̆̃̽n͙̼͛͐̅ͫͮ̓̚💠 @${num.split('@')[0]}\   sejam bem vindos" ao grupo *${mdata.subject}*🌏🌏🌏🌏🌏 Pfvr entrou se manifesta não aceitamos parasitas`
+				teks = `olá @${num.split('@')[0]}\   Bem vindo ao grupo *${mdata.subject}* se for para somar estamos juntos se for para atrasar vaza fora !!!`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -117,7 +117,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `xauu pessoa @${num.split('@')[0]} quem sabe possa voltar`
+				teks = `xauu pessoa @${num.split('@')[0]} Se saiu foi por que deu mole no corre pilantra !!`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
