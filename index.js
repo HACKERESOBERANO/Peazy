@@ -34,7 +34,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Affis Admin\n' 
             + 'ORG: Pengembang XBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=5511973027044:+55 11 97302-7044\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=556185964670:+55 61 8596-4670\n' 
             + 'END:VCARD' 
 prefix = '/'
 blocked = []          
